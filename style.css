@@ -35,17 +35,50 @@
 .navcontainer i{
   font-size: 30px;
 }
-.contentcontainer{
-  background-color: rgb(197, 219, 255);
+/* .contentcontainer{
+  background-color: rgb(214, 211, 255);
   width: 100%;
   height: 500px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid red;
+} */
+.contentbox{
+  background-color: rgb(214, 211, 255);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  /* border: 1px solid rgb(4, 0, 255); */
 }
 .contentbox h1{
-  font-size: 100px;
+  font-size: 50px;
+  width: 100%;
+  height: 100px;
   color: #7291af;
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  display: flex;
+}
+.contentbox span{
+  color: #909090;
+}
+.contentbox p{
+  font-size: 20px;
+  font-family:'Nanum Gothic', sans-serif;
+  /* margin-left: 140px; */
+  margin-top: 100px;
+  /* border: 1px solid red; */
+  color: #9ca8b4;
+}
+.underline{
+  background-color: #8f8f8f;
+  width: 50px;
+  height: 5px;
 }
 .projectbox{
   width: 100%;
@@ -179,9 +212,29 @@
       height: 400px;
       order: 1;
     }
+    .contentbox{
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      /* border: 1px solid rgb(4, 0, 255); */
+    }
+    .contentbox h1{
+      font-size: 50px;
+      width: 100%;
+      height: 100px;
+      color: #7291af;
+      /* border: 1px solid red; */
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 }
 @media screen and (min-width: 1024px) {
   .projectbox{
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

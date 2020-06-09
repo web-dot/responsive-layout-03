@@ -178,8 +178,18 @@
   }
   .project{
     width: 25%;
-    height: 600px;
+    height: 400px;
     order: 1;
+  }
+  .b-contentbox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* border: 1px solid red; */
+  }
+  .b-imgbox{
+    width: 250px;
+    height: 250px;
   }
 }
 

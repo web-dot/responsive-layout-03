@@ -156,7 +156,31 @@
   order: 1;
 }
 
-
-
+@media screen and (min-width: 768px){
+    .projectbox{
+      display: flex;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+    }
+    .project{
+      width: 50%;
+      height: 400px;
+      order: 1;
+    }
+}
+@media screen and (min-width: 1024px) {
+  .projectbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  .project{
+    width: 25%;
+    height: 600px;
+    order: 1;
+  }
+}
 
 

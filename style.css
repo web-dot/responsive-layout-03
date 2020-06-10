@@ -250,7 +250,7 @@
 }
 @media screen and (min-width: 1024px) {
   .projectbox{
-    height: 3adding content00px;
+    height: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
